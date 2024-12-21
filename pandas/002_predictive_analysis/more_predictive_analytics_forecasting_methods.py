@@ -164,14 +164,14 @@ def performance_clusters(df):
 # Generate Report
 def generate_report(df):
     report = {
-        # 'Performance Predictions': predict_performance(df),
-        # 'Hiring Trends': forecast_hiring_trends(df),
-        # 'High-Performance Departments': high_performance_departments(df),
-        # 'Salary Distribution': analyze_salary_distribution(df),
-        # 'Salary Predictions': predict_salary(df),
-        # 'Performance Trends': forecast_performance_trends(df),
-        # 'Performance Salary Correlation': performance_salary_correlation(df),
-        # 'Model Performance': evaluate_model_performance(df),
+        'Performance Predictions': predict_performance(df),
+        'Hiring Trends': forecast_hiring_trends(df),
+        'High-Performance Departments': high_performance_departments(df),
+        'Salary Distribution': analyze_salary_distribution(df),
+        'Salary Predictions': predict_salary(df),
+        'Performance Trends': forecast_performance_trends(df),
+        'Performance Salary Correlation': performance_salary_correlation(df),
+        'Model Performance': evaluate_model_performance(df),
         'Performance Clusters': performance_clusters(df)
     }
     return report
